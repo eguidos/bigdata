@@ -1,13 +1,9 @@
 package br.com.semantix
+// Autor: Guilherme Santos
+// GitHub: https://github.com/eguidos/bigdata
 
-import org.apache.spark.sql.{DataFrame, SparkSession}
+import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
-import br.com.qualidade.logs.hql.KpiAcessDia
-import scala.concurrent.{Await, Future}
-import scala.concurrent.duration.Duration
-import scala.reflect.macros.whitebox
-import scala.util.matching.Regex
-
 
 object Execute {
 
@@ -20,8 +16,8 @@ object Execute {
 
     import spark.sqlContext.implicits._
 
-    val teste = spark.sparkContext.textFile("C:/project/desafio_semantix/NASA_access_log_Aug95 (1).gz")
-    val logs = teste.toDF()
+    val arquivos = spark.sparkContext.textFile("C:/project/desafio_semantix/NASA_access_log_Aug95 (1).gz")
+    val logs = arquivos.toDF()
     val etl = logs.withColumn("host", split($"value", " ").getItem(0)).
       withColumn("time_stamp0", regexp_extract(col("value"), "\\[.*\\]", 0)).
       withColumn("time_stamp1", split($"time_stamp0", ":").getItem(0)).
@@ -41,7 +37,7 @@ object Execute {
     println("Quantidade de Erros 404 por dia")
     etl.filter(col("id_http") === 404).groupBy("time_stamp").count().sort($"time_stamp".asc).show(false)
 
-    etl.select(count("total_bytes").as("Total de bytes retornados")).show()
+    println("Total de bytes retornads " + etl.select(count("total_bytes")))
 
   }
 }
