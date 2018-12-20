@@ -6,6 +6,8 @@ Scala foi a linguagem utilizada para o desenvolvimento do Script.
 
 Inserir o caminho dos arquivos de logs utilizando <code>SparkContex.textFile(path_dos_arquivos_/logs/*)</code>
 
+Após alterar o parâmetro do textFile, gerar o .jar (o mesmo será salvo na pasta target > scala-2.11) no sbt e executar via <b>spark-submit</b>.
+
 Foi utilizado a seguinte biblioteca para efetuar as operações nos dataframes:
 <code> import org.apache.spark.sql.functions._ </code>
 
