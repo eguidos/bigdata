@@ -1,7 +1,9 @@
 <h1><center>Desafio de Engenheiro de Dados</h1></center>
 
 O presente projeto contém o script para a performace de ETL nas bases encaminhadas.
-Scala foi a linguagem utilizada para o desenvolvimento do Script
+
+Scala foi a linguagem utilizada para o desenvolvimento do Script.
+
 Inserir o caminho dos arquivos de logs utilizando <code>SparkContex.textFile(path_dos_arquivos_/logs/*)</code>
 
 Foi utilizado a seguinte biblioteca para efetuar as operações nos dataframes:
