@@ -28,9 +28,13 @@ MapReduce. Por quê?
 6 - Explique o que o código Scala abaixo faz.
 
 <code>val textFile = sc.textFile("hdfs://...")</code> - Lê um ariquivo do diretório HDFS
+
 <code>val counts = textFile.flatMap(line => line.split(" "))</code> - Cria uma coleção de itens a partir de um espaço delimitados
+
 <code>map(word => (word, 1))</code> - É criado um mapeamento chave valor onde a palavra é a chave e o número 1 é um valor que será utilizado em outro passo
+
 <code>reduceByKey(_ + _) </code> - Nesse momento é iniciada a ação, é realizada a soma dos valores por chave. 
+
 <code>counts.saveAsTextFile("hdfs://...")</code> - O resultado é armazenado no HDFS.
 
 
