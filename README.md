@@ -57,6 +57,7 @@ Questões
 +---------------------------+----------+
 
 4 - Quantidade de erros 404 por dia:
+<code>
 +-----------+-----+
 |Dia        |Qtd  |
 +-----------+-----+
@@ -81,6 +82,7 @@ Questões
 |10/Jul/1995|390  |
 |11/Aug/1995|260  |
 +-----------+-----+
+</code>
 
 5 - Total de dados retornados: 3456889
 
