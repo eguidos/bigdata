@@ -46,12 +46,12 @@ MapReduce. Por quê?
 - Total de erros 404: 206863
 
 - Os 5 urls que mais causaram o código 404:
-<br>
-hoohoo.ncsa.uiuc.edu 251
-piweba3y.prodigy.com 157
-jbiagioni.npt.nuwc.navy.mil 132 
-piweba1y.prodigy.com 114
-www-d4.proxy.aol.com 91
+
+hoohoo.ncsa.uiuc.edu 251  
+piweba3y.prodigy.com 157  
+jbiagioni.npt.nuwc.navy.mil 132   
+piweba1y.prodigy.com 114  
+www-d4.proxy.aol.com 91  
 
 Quantidade de erros 404 por dia:
 <ul>
