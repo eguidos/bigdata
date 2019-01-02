@@ -41,7 +41,7 @@ MapReduce. Por quê?
 
 <code>counts.saveAsTextFile("hdfs://...")</code> - O resultado é armazenado no HDFS.
 
-Número de Hosts únicos: 1379792
+Número de Hosts únicos: 137979
 
 Total de erros 404: 206863
 
