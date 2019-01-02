@@ -46,7 +46,6 @@ Questões
 1 - Número de Hosts únicos: 137979
 2 - Total de erros 404: 20686
 3 - Os 5 URLS que mais causaram erro 404:
-
 +---------------------------+----------+
 |URL                        |Qtd erros |
 +---------------------------+----------+
