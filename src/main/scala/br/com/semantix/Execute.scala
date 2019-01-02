@@ -16,7 +16,7 @@ object Execute {
 
     import spark.sqlContext.implicits._
 
-    val arquivos = spark.sparkContext.textFile("C:/project/desafio_semantix/NASA_access_log_Aug95 (1).gz")
+    val arquivos = spark.sparkContext.textFile("C:/projects/desafio_semantix/logs/*.gz")
     val logs = arquivos.toDF()
     val etl = logs.withColumn("host", split($"value", " ").getItem(0)).
       withColumn("time_stamp0", regexp_extract(col("value"), "\\[.*\\]", 0)).

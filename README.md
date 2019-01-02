@@ -41,7 +41,49 @@ MapReduce. Por quê?
 
 <code>counts.saveAsTextFile("hdfs://...")</code> - O resultado é armazenado no HDFS.
 
+Questões
 
+1 - Número de Hosts únicos: 137979
+2 - Total de erros 404: 20686
+3 - Os 5 URLS que mais causaram erro 404:
+
++---------------------------+----------+
+|URL                        |Qtd erros |
++---------------------------+----------+
+|hoohoo.ncsa.uiuc.edu       |251       |
+|piweba3y.prodigy.com       |157       |
+|jbiagioni.npt.nuwc.navy.mil|132       |
+|piweba1y.prodigy.com       |114       |
+|www-d4.proxy.aol.com       |91        |
++---------------------------+----------+
+
+4 - Quantidade de erros 404 por dia:
++-----------+-----+
+|Dia        |Qtd  |
++-----------+-----+
+|01/Aug/1995|242  |
+|01/Jul/1995|314  |
+|02/Jul/1995|289  |
+|03/Aug/1995|301  |
+|03/Jul/1995|473  |
+|04/Aug/1995|345  |
+|04/Jul/1995|355  |
+|05/Aug/1995|230  |
+|05/Jul/1995|491  |
+|06/Aug/1995|370  |
+|06/Jul/1995|630  |
+|07/Aug/1995|527  |
+|07/Jul/1995|564  |
+|08/Aug/1995|377  |
+|08/Jul/1995|299  |
+|09/Aug/1995|278  |
+|09/Jul/1995|341  |
+|10/Aug/1995|313  |
+|10/Jul/1995|390  |
+|11/Aug/1995|260  |
++-----------+-----+
+
+5 - Total de dados retornados: 3456889
 
 
 
