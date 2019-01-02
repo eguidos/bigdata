@@ -46,6 +46,8 @@ Questões
 1 - Número de Hosts únicos: 137979
 2 - Total de erros 404: 20686
 3 - Os 5 URLS que mais causaram erro 404:
+
+<p>
 +---------------------------+----------+
 |URL                        |Qtd erros |
 +---------------------------+----------+
@@ -55,9 +57,9 @@ Questões
 |piweba1y.prodigy.com       |114       |
 |www-d4.proxy.aol.com       |91        |
 +---------------------------+----------+
-
+</p>
 4 - Quantidade de erros 404 por dia:
-<code>
+
 +-----------+-----+
 |Dia        |Qtd  |
 +-----------+-----+
@@ -82,7 +84,7 @@ Questões
 |10/Jul/1995|390  |
 |11/Aug/1995|260  |
 +-----------+-----+
-</code>
+
 
 5 - Total de dados retornados: 3456889
 
