@@ -52,7 +52,7 @@ jbiagioni.npt.nuwc.navy.mil 132
 piweba1y.prodigy.com 114  
 www-d4.proxy.aol.com 91  
 
-Quantidade de erros 404 por dia:
+Quantidade de erros 404 por dia:  
 01/Aug/1995 242  
 01/Jul/1995 314  
 02/Jul/1995 289   
