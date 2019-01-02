@@ -41,11 +41,11 @@ MapReduce. Por quê?
 
 <code>counts.saveAsTextFile("hdfs://...")</code> - O resultado é armazenado no HDFS.
 
-- Número de Hosts únicos: 1379792
+Número de Hosts únicos: 1379792
 
-- Total de erros 404: 206863
+Total de erros 404: 206863
 
-- Os 5 urls que mais causaram o código 404:  
+Os 5 urls que mais causaram o código 404:  
 hoohoo.ncsa.uiuc.edu 251  
 piweba3y.prodigy.com 157  
 jbiagioni.npt.nuwc.navy.mil 132   
@@ -53,7 +53,6 @@ piweba1y.prodigy.com 114
 www-d4.proxy.aol.com 91  
 
 Quantidade de erros 404 por dia:
-
 01/Aug/1995 242  
 01/Jul/1995 314  
 02/Jul/1995 289   
@@ -75,4 +74,4 @@ Quantidade de erros 404 por dia:
 10/Jul/1995 390  
 11/Aug/1995 260  
 
- - Total de bytes retornados: 3456889
+Total de bytes retornados: 3456889
